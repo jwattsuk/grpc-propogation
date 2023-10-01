@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module>proto</module>
+		<module>grpc-propagation-service</module>
+		<module>grpc-propagation-client</module>
+	</modules>
+	<groupId>com.watts</groupId>
+	<artifactId>grpc-propagation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>grpc-propagation</name>
+	<description>Transaction propagation with gRPC</description>
+</project>
